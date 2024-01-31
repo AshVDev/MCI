@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  margin: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+.navbar {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.add-Emp-btn {
+  padding: 8px;
+  border-radius: 10%;
+}
+.add-Emp-btn:hover {
+  color: white;
+  background: #464444;
+}
+.allDetails {
+  display: flex;
+}
+.employeeList {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.employeeList--Info {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+}
+.empListItem {
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: #464444;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.empListItem:hover,
+.selected {
+  background-color: aquamarine;
+}
